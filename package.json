@@ -1,0 +1,32 @@
+{
+  "name": "mytheme",
+  "version": "1.0.0",
+  "description": "Theme Blog",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "frontend",
+    "blog",
+    "css",
+    "stylus",
+    "gulp",
+    "jekyll",
+    "js"
+  ],
+  "author": "NathPaiva",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.4.0",
+    "browser-sync": "^1.9.0",
+    "gulp": "^3.8.10",
+    "gulp-imagemin": "^2.1.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-stylus": "^1.3.7"
+  },
+  "dependencies": {
+    "kouto-swiss": "^0.11.14",
+    "rupture": "^0.6.1"
+  }
+}
