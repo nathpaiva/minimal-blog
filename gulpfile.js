@@ -36,7 +36,6 @@ gulp.task('stylus', function(){
 
 gulp.task('watch', function () {
 	gulp.watch('src/styl/**/*.styl', ['stylus']);
-	// gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 	gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '_posts/*']);
 });
 
