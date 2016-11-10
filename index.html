@@ -1,26 +1,21 @@
 ---
 layout: default
 ---
-
-<!-- <header class="masthead">
-	<h1 class="masthead-title">
-		<a href="{{ site.baseurl }}/">{{ site.title }}<span>&#39;s blog</span></a>
-	</h1>
-</header> -->
-
+{% include about.html %}
 {% if site.posts.size == 0 %}
-	<h2>No posts found :(</h2>
+<h2>No posts found :(</h2>
 {% else %}
-	{% for post in site.posts %}
-		<div class="content list">
-			<div class="list-item">
-				<h2 class="list-post-title">
-					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-				</h2>
-				<div class="list-post-date">
-					<time>{{ post.date | date_to_string }}</time>
-				</div>
-			</div>
+{% for post in site.posts %}
+<h2>Blog oi</h2>
+<div class="content list">
+	<div class="list-item">
+		<h2 class="list-post-title">
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</h2>
+		<div class="list-post-date">
+			<time>{{ post.date | date_to_string }}</time>
 		</div>
-	{% endfor %}
+	</div>
+</div>
+{% endfor %}
 {% endif %}

@@ -21,3 +21,5 @@ markdown: kramdown
 # permalink: /:year/:month/:day/:title
 # permalink: /teste/:title
 permalink: /:title
+
+exclude: ['package.json', 'src', 'node_modules']
