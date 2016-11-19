@@ -1,31 +1,32 @@
 {
-  "name": "my-site",
-  "version": "0.0.0",
-  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "name": "mytheme",
+  "version": "1.0.0",
+  "description": "Theme Blog",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Shane Osbourne",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-sass": "^2.1.0",
-    "browser-sync": "^1.3.7",
-    "gulp-autoprefixer": "1.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+    "test": "test"
   },
   "keywords": [
-    "jekyll",
+    "frontend",
+    "blog",
+    "css",
+    "stylus",
     "gulp",
-    "sass",
-    "browsersync"
+    "jekyll",
+    "js"
   ],
-  "bugs": {
-    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+  "author": "NathPaiva",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.4.0",
+    "browser-sync": "^1.9.0",
+    "gulp": "^3.8.10",
+    "gulp-imagemin": "^2.1.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-stylus": "^1.3.7"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
+  "dependencies": {
+    "kouto-swiss": "^0.11.14",
+    "rupture": "^0.6.1"
+  }
 }
