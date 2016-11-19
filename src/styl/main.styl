@@ -2,3 +2,30 @@
 @import "config/_syntax-highlighthing"
 @import "config/_structure"
 @import "components/_form"
+
+$gutter = 2px
+
+col(col-num)
+  	width 'calc(((100% * %s) /12 ) - (%s * 2 ))' % (col-num $gutter)
+
+config-col
+  	background-color oldlace
+  	margin $gutter
+  	box-sizing border-box
+
+
+
+.row
+  	width 100%
+  	max-width 900px
+  	margin $gutter auto
+  	display: flex
+	flex-wrap: wrap
+  	background-color pink
+
+
+.logo,
+.menu
+    col(6)
+    background-color orange
+    margin $gutter
