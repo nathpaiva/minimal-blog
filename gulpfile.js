@@ -60,8 +60,8 @@ gulp.task('stylus', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('src/styl/*.styl', ['stylus']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch('src/styl/**/*.styl', ['stylus']);
+    gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
 });
 
 /**
